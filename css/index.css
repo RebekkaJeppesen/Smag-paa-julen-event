@@ -10,8 +10,6 @@
   font-style: normal;
   font-size: 48px;
   color: rgba(105, 11, 18, 1);
-  text-decoration: underline;
-  text-decoration-thickness: 8px;
 }
 .intro {
   grid-column: 2;
@@ -20,6 +18,7 @@
   border-radius: 2rem;
   padding: 2rem;
   background-color: rgba(105, 11, 18, 1);
+  box-shadow: 20px 20px 6px rgba(104, 11, 19, 0.45);
 }
 .tekst {
   font-family: "Playfair Display", serif;
@@ -27,6 +26,7 @@
   font-weight: 500;
   font-style: normal;
   color: rgba(235, 228, 210, 1);
+  font-size: 18px;
 }
 
 .guirlande {
@@ -42,4 +42,16 @@
   font-style: normal;
   color: rgba(105, 11, 18, 1);
   font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.vindue {
+  border: 1px solid rgba(186, 173, 149, 1);
+  border-radius: 2rem;
+  background-color: rgba(186, 173, 149, 1);
+  box-shadow: 30px 25px 6px rgba(186, 173, 149, 0.45);
+}
+.vindue:hover {
+  box-shadow: 30px 25px 6px rgba(220, 170, 88);
+  transform: translateY(-20px);
 }

@@ -1,0 +1,15 @@
+.starter {
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+
+  place-items: center;
+}
+.overskrift {
+  grid-column: 2;
+
+  font-family: "Yesteryear", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 100px;
+  color: rgba(105, 11, 18, 1);
+}

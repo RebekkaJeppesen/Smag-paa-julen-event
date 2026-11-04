@@ -4,7 +4,7 @@ html {
   --color-surface: #fff;
   --color-text: #222;
   --color-muted: #666;
-  --color-border: #d8d8d8;
+  --color-border: rgba(105, 11, 18, 1);
   --space-05: 0.5rem;
   --space-1: 1rem;
   --space-2: 2rem;
@@ -136,12 +136,6 @@ main > * {
   justify-content: space-between;
   align-items: center;
   gap: var(--space-1);
-}
-
-.site-logo {
-  color: inherit;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .footer-content {

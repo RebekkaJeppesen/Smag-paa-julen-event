@@ -1,7 +1,7 @@
 /* Variabler */
 html {
-  --color-page: #f7f7f7;
-  --color-surface: #fff;
+  --color-page: rgba(235, 228, 210, 1);
+  --color-surface: rgba(235, 228, 210, 1);
   --color-text: #222;
   --color-muted: #666;
   --color-border: rgba(105, 11, 18, 1);
@@ -150,15 +150,16 @@ main > * {
 /* Navigation */
 [popover] {
   margin: 0;
-  padding: 0;
-  border: none;
+  margin-right: 2rem;
   background: transparent;
+  position-area: top;
 }
 
 .site-nav button {
   padding: 0.4rem 0.7rem;
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
+  border: 1px solid rgba(255, 255, 255, 1);
+  background: rgba(105, 11, 18, 1);
+  color: rgba(235, 228, 210, 1);
   @media (width > 600px) {
     display: none;
   }
@@ -183,13 +184,23 @@ main > * {
 .menu a {
   display: block;
   padding: 0.4rem 0;
-  color: inherit;
+  color: rgba(105, 11, 18, 1);
   text-decoration: none;
-  border-bottom: 2px solid #0000;
+  border-bottom: 1px solid #0000;
+}
+
+.menu a:hover {
+  color: rgba(105, 11, 18, 1);
+  font-weight: 600;
 }
 
 .menu a[aria-current="page"] {
   border-bottom-color: var(--color-border);
+}
+
+.site-header {
+  background-color: rgba(235, 228, 210, 1);
+  border-bottom: solid rgba(105, 11, 18, 1);
 }
 
 /* Flader */

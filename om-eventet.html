@@ -1,9 +1,63 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Formular | Eventnavn</title>
+    <link rel="stylesheet" href="./css/starter.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/om-eventet.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <a class="site-logo" href="index.html"> <img class="logo" src="svg/logo.svg" alt="" /></a>
+        <nav class="site-nav">
+          <button popovertarget="menu">Menu</button>
+          <ul class="menu" id="menu" popover>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="svg.html">Kom og Smag</a></li>
+            <li><a href="om-eventet.html" aria-current="page">Om eventet</a></li>
+            <li><a href="tilmelding.html">Tilmeld dig</a></li>
+            <button popovertarget="menu">Luk</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="om-event">
+        <h1 class="om">Om eventet</h1>
+        <img class="pynt" src="svg/pynt-1.svg" alt="" />
+        <section class="boks">
+          <section>
+            <button class="stor-knap" popovertarget="indhold">Ensomhed i julen</button>
+            <div class="indhold" id="indhold" popover>
+              <h1>Ensomhed i julen</h1>
+              <p>Julen er en tid mange føler sig ensomme i. Vi har derfor skabt et fællesskab med plads til alle. Mød nye mennesker og jule hyg derudaf. Vi glæder os til at se dig!</p>
+              <button popovertarget="indhold">Luk</button>
+            </div>
+          </section>
+
+          <section>
+            <button class="stor-knap" popovertarget="indhold2">Smag på julen verden rundt</button>
+            <div class="indhold2" id="indhold2" popover="">
+              <h1>Smap på julen verden rundt</h1>
+              <p>Hver advent er et nyt land i fokus. Kom og smag en masse nyt (eller velkendt) mad, og få øjnene op for andre madtraditioner i julen.</p>
+              <button class="lille-knap" popovertarget="indhold2">Luk</button>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <a class="site-logo" href="index.html"> <img class="logo" src="svg/logo.svg" alt="" /></a>
+        <p>Caroline, Lulu & Rebekka MMD</p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Interaktiv SVG | Eventnavn</title>
     <link rel="stylesheet" href="./css/starter.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/svg.css" />
   </head>
 
   <body>
@@ -27,33 +28,45 @@
     <main>
       <section class="svg-page">
         <header class="svg-intro">
-          <h1>Interaktiv SVG</h1>
-          <p>Indsæt din egen SVG og forbind den med punkterne nedenfor.</p>
+          <h1>Kom og smag</h1>
         </header>
 
         <section class="svg-layout">
-          <div class="svg-placeholder"></div>
+          <div class="svg-placeholder">
+            <svg class="svg-hus" viewBox="490 0 1350 1050" aria-hidden="true">
+              <use class="hus" href="./svg/hus_lys.svg#hus"></use>
+              <use class="lys" href="./svg/hus_lys.svg#lyset"></use>
+            </svg>
+          </div>
 
           <article class="panel">
             <h2>Udforsk eventet</h2>
             <div class="accordion">
               <!-- TODO: Lav om til details/summary -->
-              <div class="accordion-item">
-                <h3>Punkt 1</h3>
-                <p>Beskriv første område, aktivitet eller del af dit event.</p>
-              </div>
-              <div class="accordion-item">
-                <h3>Punkt 2</h3>
-                <p>Beskriv andet område, aktivitet eller del af dit event.</p>
-              </div>
-              <div class="accordion-item">
-                <h3>Punkt 3</h3>
+              <details id="advent1" class="accordion-item" name="advent" data-position="foerste">
+                <summary>1. advent</summary>
+                <p>menukort</p>
+              </details>
+
+              <details id="advent2" class="accordion-item" name="advent" data-position="anden">
+                <summary>2. advent</summary>
+                <p>menukotr</p>
+              </details>
+
+              <details id="advent3" class="accordion-item" name="advent" data-position="tredje">
+                <summary>3. advent</summary>
                 <p>Beskriv tredje område, aktivitet eller del af dit event.</p>
-              </div>
+              </details>
+
+              <details id="advent4" class="accordion-item" name="advent" data-position="fjerde">
+                <summary>4. advent</summary>
+                <p>Beskriv tredje område, aktivitet eller del af dit event.</p>
+              </details>
             </div>
           </article>
         </section>
       </section>
+      <script src="./js/script.js"></script>
     </main>
 
     <footer class="site-footer">
@@ -62,6 +75,5 @@
         <p>Caroline, Lulu & Rebekka MMD</p>
       </div>
     </footer>
-    <script src="./script.js"></script>
   </body>
 </html>

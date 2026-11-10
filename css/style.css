@@ -72,7 +72,7 @@ main > * {
   gap: var(--space-2);
   align-items: start;
   @media (width > 800px) {
-    grid-template-columns: 1fr min(40%, 36ch);
+    grid-template-columns: 65% 45%;
   }
 }
 
@@ -227,7 +227,6 @@ main > * {
 
 /* Flader */
 .panel,
-.svg-placeholder,
 .form-placeholder,
 .opsamling-placeholder {
   background: var(--color-surface);

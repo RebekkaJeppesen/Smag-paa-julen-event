@@ -1,0 +1,121 @@
+.tilmelding {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tilmelding fieldset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-right: 16px;
+  padding: 2rem;
+  border-radius: 2rem;
+  border-color: rgba(235, 228, 210, 1);
+  margin-top: 1rem;
+  width: 400px;
+}
+@media (width > 700px) {
+  .tilmelding fieldset {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 16px;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    border-color: rgba(235, 228, 210, 1);
+  }
+}
+
+.tilmelding input[type="text"],
+.tilmelding input[type="email"],
+.tilmelding input[type="number"] {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(235, 228, 210, 1);
+}
+
+.tilmelding input[type="checkbox"] {
+  accent-color: rgba(42, 53, 31, 1);
+}
+
+.tilmelding label {
+  padding-right: 1rem;
+}
+
+.form-placeholder {
+  align-items: center;
+  border: 1rem solid rgba(105, 11, 18, 1);
+  background-color: rgba(105, 11, 18, 1);
+  border-radius: 2rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(235, 228, 210, 1);
+  font-size: 18px;
+  margin-top: 4rem;
+  width: 450px;
+}
+@media (width > 700px) {
+  .form-placeholder {
+    border: 1rem solid rgba(105, 11, 18, 1);
+    background-color: rgba(105, 11, 18, 1);
+    border-radius: 2rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(235, 228, 210, 1);
+    font-size: 18px;
+    margin-top: 4rem;
+  }
+}
+
+.model {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.h-et {
+  display: grid;
+  grid-column: 1/3;
+  border-bottom: solid rgba(105, 11, 18, 1);
+  padding-bottom: 2rem;
+}
+
+.img {
+  display: none;
+  margin-left: 2rem;
+  width: 350px;
+  height: auto;
+}
+@media (width > 700px) {
+  .img {
+    display: block;
+    margin-left: 2rem;
+    width: 350px;
+    height: auto;
+  }
+}
+
+.submit {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: gba(235, 228, 210, 1);
+  font-size: 18px;
+  padding: 0.5rem;
+  align-items: center;
+  width: 200px;
+  border: solid rgba(235, 228, 210, 1);
+  border-radius: 2rem;
+  background-color: rgba(105, 11, 18, 1);
+}
+
+submit:hover {
+  background-color: rgba(42, 53, 31, 1);
+}

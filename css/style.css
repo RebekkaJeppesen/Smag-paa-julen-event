@@ -72,7 +72,7 @@ main > * {
   gap: var(--space-2);
   align-items: start;
   @media (width > 800px) {
-    grid-template-columns: 65% 45%;
+    grid-template-columns: 60% 40%;
   }
 }
 
@@ -170,18 +170,19 @@ main > * {
   border: 1px solid rgba(255, 255, 255, 1);
   background: rgba(105, 11, 18, 1);
   color: rgba(235, 228, 210, 1);
-  @media (width > 600px) {
+  @media (width > 700px) {
     display: none;
   }
 }
 
 .menu {
   margin: 0;
-  padding: var(--space-1);
+  padding: var(--space-2);
   list-style: none;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  @media (width > 600px) {
+
+  @media (width > 700px) {
     display: flex;
     gap: var(--space-1);
     padding: 0;
@@ -227,7 +228,6 @@ main > * {
 
 /* Flader */
 .panel,
-.form-placeholder,
 .opsamling-placeholder {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -282,6 +282,18 @@ main > * {
   background-color: rgba(235, 228, 210, 1);
   border-top: solid rgba(105, 11, 18, 1);
 }
+@media (width > 700px) {
+  .site-footer {
+    background-color: rgba(235, 228, 210, 1);
+    border-top: solid rgba(105, 11, 18, 1);
+  }
+}
+
 .footer-content {
   color: rgba(105, 11, 18, 1);
+}
+@media (width > 700px) {
+  .footer-content {
+    color: rgba(105, 11, 18, 1);
+  }
 }

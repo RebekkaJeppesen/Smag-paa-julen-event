@@ -1,22 +1,5 @@
 // Interaktiv SVG-side
 
-// const huset = document.querySelector(".svg-hus");
-
-// document.querySelector("#advent-1").addEventListener("toggle", lys);
-// document.querySelector("#advent-2").addEventListener("toggle", lys);
-// document.querySelector("#advent-3").addEventListener("toggle", lys);
-// document.querySelector("#advent-4").addEventListener("toggle", lys);
-
-// function lys() {
-//   const aaben = document.querySelector(".accordion-item[open]");
-//   if (aaben) {
-//     huset.dataset.position = aaben.dataset.position;
-//   } else {
-//     delete huset.dataset.position;
-//   }
-// }
-// lys();
-
 const huset = document.querySelector(".svg-hus");
 const accordionItems = document.querySelectorAll(".accordion-item");
 
@@ -34,9 +17,39 @@ accordionItems.forEach(function (item) {
 });
 
 // Opsamlingsside
-const opsamlingPlaceholder = document.querySelector(".opsamling-placeholder");
+// const opsamlingPlaceholder = document.querySelector(".opsamling-placeholder");
+const eventPass = document.querySelector(".event-pass");
 
-if (opsamlingPlaceholder) {
+if (eventPass) {
   const params = new URLSearchParams(window.location.search);
-  // Eksempel: params.get("navn") henter værdien fra et formularfelt med name="navn".
+  const nicknameInput = document.querySelector("#nickname");
+  const nickname = params.get("nickname");
+  nicknameInput.textContent = nickname;
+
+  const emailSelect = document.querySelector("#email");
+  const email = params.get("email");
+  emailSelect.textContent = email;
+
+  const ageSelect = document.querySelector("#alder");
+  const alder = params.get("alder");
+  ageSelect.textContent = alder;
+
+  const nationalSelect = document.querySelector("#nationalitet");
+  const nationalitet = params.get("nationalitet");
+  nationalSelect.textContent = nationalitet;
+
+  const deltagelseSelect = document.querySelector("#deltagelse");
+  const deltagelse = params.getAll("deltagelse");
+
+  if (deltagelse.length > 0) {
+    deltagelseSelect.innerHTML = deltagelse.map((valg) => `<li>${valg}</li>`).join("");
+  } else {
+    deltagelseSelect.innerHTML = "<li>Ingen dage valgt</li>";
+  }
 }
+
+// deltagelseSelect.textContent = "Ingen valgt";
+
+// if (opsamlingPlaceholder) {
+//   const params = new URLSearchParams(window.location.search);
+// Eksempel: params.get("navn") henter værdien fra et formularfelt med name="navn".

@@ -52,13 +52,12 @@ h3 {
 }
 
 .pynt {
-  grid-column: 3;
-  grid-row: span-1;
-  height: auto;
+  display: none;
 }
-@media (width > 1081px) {
+@media (width > 700px) {
   .pynt {
-    grid-column: 3;
+    display: block;
+    grid-column: 2/3;
     grid-row: span-1;
     margin-left: 4rem;
     width: 250px;
@@ -66,9 +65,18 @@ h3 {
 }
 
 .pynt-2 {
+  display: none;
   height: auto;
   width: 250px;
   padding-left: 1rem;
+}
+@media (width > 700px) {
+  .pynt-2 {
+    display: block;
+    height: auto;
+    width: 250px;
+    padding-left: 1rem;
+  }
 }
 
 .boks {
@@ -84,7 +92,7 @@ h3 {
   margin-top: 4rem;
   margin-bottom: 4rem;
   box-shadow: 10px 10px 6px rgba (104, 11, 19, 0.45);
-  height: 1500px;
+  height: 1000px;
   width: 400px;
 }
 @media (width > 700px) {

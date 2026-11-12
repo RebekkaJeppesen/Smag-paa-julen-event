@@ -26,6 +26,7 @@
     border-radius: 2rem;
     margin-top: 1rem;
     border-color: rgba(235, 228, 210, 1);
+    width: 550px;
   }
 }
 
@@ -72,6 +73,7 @@
     color: rgba(235, 228, 210, 1);
     font-size: 18px;
     margin-top: 4rem;
+    width: 800px;
   }
 }
 
@@ -95,8 +97,8 @@
 @media (width > 700px) {
   .img {
     display: block;
-    margin-left: 2rem;
-    width: 350px;
+    margin-left: 10rem;
+    width: 250px;
     height: auto;
   }
 }
@@ -116,6 +118,6 @@
   background-color: rgba(105, 11, 18, 1);
 }
 
-submit:hover {
+.submit:hover {
   background-color: rgba(42, 53, 31, 1);
 }

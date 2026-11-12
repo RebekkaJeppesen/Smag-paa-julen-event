@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opsamling</title>
+    <link rel="stylesheet" href="./css/starter.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/opsamling.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <a class="site-logo" href="index.html"> <img class="logo" src="svg/logo.svg" alt="" /></a>
+        <nav class="site-nav">
+          <button>Menu</button>
+          <ul class="menu" id="menu" popover>
+            <li><a href="./index.html">Forside</a></li>
+            <li><a href="./svg.html">Kom og Smag</a></li>
+            <li><a href="./om-eventet.html">Om eventet</a></li>
+            <li><a href="./tilmelding.html">Tilmeld dig</a></li>
+            <li><a href="./opsamling.html" aria-current="page">Opsamling</a></li>
+           
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="opsamling-page">
+        <h1>Opsamling</h1>
+       
+
+        <article class="opsamling-placeholder">
+          <section class="event-pass">
+            <section class="data">
+              <h2 class="personlige">Dit personlige event-pas</h2>
+              <div class="personal-info-section">
+                <p>Navn: <span id="nickname"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <p>Alder: <span id="alder"></span></p>
+                <p>Nationalitet: <span id="nationalitet"></span></p>
+                
+              </div>
+              <!-- <img id="occupation-image" src="img/default.png" alt="Erhverv" /> -->
+            </section>
+            <section class="workshops">
+              <h3>Du er tilmeldt følgende workshops:</h3>
+              <ul id="deltagelse"></ul>
+            </section>
+          </section>
+        </article>
+        <div class="actions">
+            <a class="button" href="index.html">Tilbage til forsiden</a>
+          </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <a class="site-logo" href="index.html"> <img class="logo" src="svg/logo.svg" alt="" /></a>
+        <p>Caroline, Lulu & Rebekka MMD</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

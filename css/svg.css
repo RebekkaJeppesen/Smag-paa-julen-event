@@ -5,6 +5,7 @@
   background-color: rgba(105, 11, 18, 1);
   box-shadow: 10px 10px 6px rgba(104, 11, 19, 0.45);
   width: 650px;
+  margin-top: 1rem;
 }
 
 @media (width > 700px) {
@@ -37,6 +38,8 @@ h2 {
   color: rgba(105, 11, 18, 1);
   text-align: center;
   align-items: center;
+  border-bottom: solid rgba(105, 11, 18, 1);
+  padding-bottom: 2rem;
 }
 @media (width > 700px) {
   .start {
@@ -46,6 +49,8 @@ h2 {
     font-size: 50px;
     color: rgba(105, 11, 18, 1);
     text-align: left;
+    border-bottom: solid rgba(105, 11, 18, 1);
+    padding-bottom: 2rem;
   }
 }
 

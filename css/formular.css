@@ -5,8 +5,7 @@
 }
 
 .tilmelding fieldset {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-right: 16px;
@@ -14,7 +13,7 @@
   border-radius: 2rem;
   border-color: rgba(235, 228, 210, 1);
   margin-top: 1rem;
-  width: 400px;
+  width: 550px;
 }
 @media (width > 700px) {
   .tilmelding fieldset {
@@ -59,8 +58,9 @@
   color: rgba(235, 228, 210, 1);
   font-size: 18px;
   margin-top: 4rem;
-  width: 450px;
+  width: 650px;
 }
+
 @media (width > 700px) {
   .form-placeholder {
     border: 1rem solid rgba(105, 11, 18, 1);
@@ -81,6 +81,7 @@
   display: grid;
   grid-template-columns: 60% 40%;
 }
+
 .h-et {
   display: grid;
   grid-column: 1/3;

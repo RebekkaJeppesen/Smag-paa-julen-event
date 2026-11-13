@@ -33,7 +33,7 @@ h1 {
   font-family: "Yesteryear", cursive;
   font-weight: 1000;
   font-style: normal;
-  font-size: 50px;
+  font-size: 60px;
   color: rgba(105, 11, 18, 1);
 }
 .overskrift {
@@ -60,7 +60,6 @@ main > * {
 .svg-intro {
   display: grid;
   gap: var(--space-1);
-  max-width: 60ch;
 }
 
 .svg-intro p {
@@ -95,14 +94,11 @@ main > * {
   color: var(--color-muted);
 }
 
-.opsamling-page {
-  display: grid;
-  grid-template-columns: 70% 30%;
-
-  @media (width > 800px) {
+/* .opsamling-page { */
+/* @media (width > 800px) {
     grid-template-columns: minmax(0, 44ch) minmax(20rem, 1fr);
-  }
-}
+  } */
+/* } */
 
 /* .opsamling-intro {
   display: grid;
@@ -192,9 +188,8 @@ button:hover {
   border: solid rgba(105, 11, 18, 1);
   border-radius: 2rem;
   text-align: center;
-}
-@media (width > 700px) {
-  .menu a {
+
+  @media (width > 700px) {
     border: none;
     border-radius: 0;
     display: block;
@@ -214,10 +209,8 @@ button:hover {
   border: 2px solid var(--color-border);
   max-width: 100%;
   border-radius: 2rem;
-}
 
-@media (width > 700px) {
-  .menu {
+  @media (width > 700px) {
     display: flex;
     gap: var(--space-1);
     padding: 0;
@@ -304,9 +297,8 @@ button:hover {
 .site-footer {
   background-color: rgba(235, 228, 210, 1);
   border-top: solid rgba(105, 11, 18, 1);
-}
-@media (width > 700px) {
-  .site-footer {
+
+  @media (width > 700px) {
     background-color: rgba(235, 228, 210, 1);
     border-top: solid rgba(105, 11, 18, 1);
   }
@@ -314,9 +306,8 @@ button:hover {
 
 .footer-content {
   color: rgba(105, 11, 18, 1);
-}
-@media (width > 700px) {
-  .footer-content {
+
+  @media (width > 700px) {
     color: rgba(105, 11, 18, 1);
   }
 }

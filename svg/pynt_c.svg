@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 466.02 764">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st3 {
+        stroke: #a87b2c;
+      }
+
+      .st5 {
+        fill: #ebe4d2;
+      }
+
+      .st5, .st2 {
+        stroke: #ebe4d2;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .st6 {
+        fill: #a9332a;
+      }
+
+      .st7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st8, .st9 {
+        fill: #fbf3e5;
+      }
+
+      .st10 {
+        fill: #d9a441;
+      }
+
+      .st3 {
+        stroke-width: 4px;
+      }
+
+      .st4 {
+        stroke: #3fa8a4;
+        stroke-width: 7px;
+      }
+
+      .st4, .st9 {
+        stroke-linejoin: round;
+      }
+
+      .st11 {
+        fill: #f2c04d;
+      }
+
+      .st9 {
+        stroke: #fbf3e5;
+        stroke-width: 24px;
+      }
+
+      .st12 {
+        fill: #da462f;
+      }
+
+      .st13 {
+        clip-path: url(#clippath);
+      }
+
+      .st14 {
+        fill: #e1675a;
+      }
+
+      .st15 {
+        fill: #fff;
+        isolation: isolate;
+        opacity: .45;
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="st0" points="141.07 496.92 173.66 574.33 257.35 581.34 193.78 636.26 212.94 718.07 141.07 674.56 69.2 718.07 88.35 636.26 24.79 581.34 108.47 574.33 141.07 496.92"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle class="st0" cx="357.6" cy="461.6" r="93.96"/>
+    </clipPath>
+  </defs>
+  <g id="Kugle_5_stjerne">
+    <polygon id="Form" class="st9" points="141.07 496.92 173.66 574.33 257.35 581.34 193.78 636.26 212.94 718.07 141.07 674.56 69.2 718.07 88.35 636.26 24.79 581.34 108.47 574.33 141.07 496.92"/>
+    <g class="st13">
+      <g id="Moenster">
+        <path class="st12" d="M141.07,563.33c-13.12-11.24-18.74-18.74-11.24-25.3,5.62-4.69,11.24,0,11.24,4.69,0-4.69,5.62-9.37,11.24-4.69,7.5,6.56,1.87,14.06-11.24,25.3Z"/>
+        <path class="st12" d="M194.15,601.9c6.64-15.95,12.03-23.62,20.59-18.51,6.19,3.9,3.47,10.69-.98,12.14,4.46-1.45,10.65,2.45,7.93,9.25-3.92,9.16-12.79,6.13-27.54-2.88h0Z"/>
+        <path class="st12" d="M173.88,664.31c17.22,1.39,26.18,4.15,23.97,13.86-1.79,7.1-9.1,6.61-11.85,2.82,2.75,3.79.96,10.89-6.34,10.4-9.92-.9-9.78-10.27-5.77-27.08h0Z"/>
+        <path class="st12" d="M108.25,664.31c4,16.81,4.15,26.18-5.77,27.08-7.3.49-9.1-6.61-6.34-10.4-2.75,3.79-10.06,4.28-11.85-2.82-2.21-9.71,6.75-12.47,23.97-13.86h-.01Z"/>
+        <path class="st12" d="M87.98,601.9c-14.75,9-23.62,12.03-27.54,2.88-2.72-6.8,3.47-10.69,7.93-9.25-4.46-1.45-7.17-8.24-.98-12.14,8.55-5.1,13.95,2.56,20.59,18.51Z"/>
+        <circle class="st14" cx="141.07" cy="619.15" r="21.19"/>
+        <circle class="st14" cx="158.34" cy="595.44" r="4.07"/>
+        <circle class="st14" cx="168.94" cy="628.19" r="4.07"/>
+        <circle class="st14" cx="141.07" cy="648.48" r="4.07"/>
+        <circle class="st14" cx="113.2" cy="628.19" r="4.07"/>
+        <circle class="st14" cx="123.78" cy="595.44" r="4.07"/>
+      </g>
+    </g>
+    <g id="Top">
+      <ellipse class="st3" cx="141.07" cy="461.88" rx="8.96" ry="10.59"/>
+      <rect class="st10" x="122.33" y="470.03" width="37.48" height="21.19" rx="5" ry="5"/>
+      <line class="st1" x1="128.85" y1="473.29" x2="128.85" y2="487.96"/>
+      <line class="st1" x1="136.99" y1="473.29" x2="136.99" y2="487.96"/>
+      <line class="st1" x1="145.14" y1="473.29" x2="145.14" y2="487.96"/>
+      <line class="st1" x1="153.28" y1="473.29" x2="153.28" y2="487.96"/>
+    </g>
+  </g>
+  <path class="st2" d="M141.07,0v453.29"/>
+  <g id="Kugle_1_roed">
+    <circle id="Form1" class="st12" cx="357.6" cy="461.6" r="93.96"/>
+    <g class="st7">
+      <g id="Moenster1">
+        <rect class="st6" x="249.18" y="353.18" width="216.84" height="57.82"/>
+        <rect class="st8" x="249.18" y="439.91" width="216.84" height="43.37"/>
+        <polyline class="st4" points="241.95 470.27 256.41 452.92 270.86 470.27 285.32 452.92 299.77 470.27 314.23 452.92 328.69 470.27 343.14 452.92 357.6 470.27 372.05 452.92 386.51 470.27 400.97 452.92 415.42 470.27 429.88 452.92 444.33 470.27 458.79 452.92 473.25 470.27"/>
+        <rect class="st8" x="249.18" y="431.24" width="216.84" height="3.61"/>
+        <rect class="st8" x="249.18" y="488.34" width="216.84" height="3.61"/>
+        <circle class="st8" cx="256.41" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="276.64" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="296.88" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="317.12" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="337.36" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="357.6" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="377.84" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="398.07" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="418.31" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="438.55" cy="506.41" r="4.34"/>
+        <circle class="st8" cx="458.79" cy="506.41" r="4.34"/>
+        <circle class="st11" cx="266.52" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="286.76" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="307" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="327.24" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="347.48" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="367.72" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="387.96" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="408.19" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="428.43" cy="416.78" r="4.34"/>
+        <circle class="st11" cx="448.67" cy="416.78" r="4.34"/>
+        <rect class="st6" x="249.18" y="530.26" width="216.84" height="43.37"/>
+        <ellipse id="Glans" class="st15" cx="314.23" cy="410.99" rx="15.9" ry="34.69" transform="translate(-163.4 212.18) rotate(-30)"/>
+      </g>
+    </g>
+    <g id="Top1">
+      <ellipse class="st3" cx="357.6" cy="344.5" rx="7.95" ry="9.4"/>
+      <rect class="st10" x="340.97" y="351.73" width="33.25" height="18.79" rx="5" ry="5"/>
+      <line class="st1" x1="346.76" y1="354.62" x2="346.76" y2="367.63"/>
+      <line class="st1" x1="353.98" y1="354.62" x2="353.98" y2="367.63"/>
+      <line class="st1" x1="361.21" y1="354.62" x2="361.21" y2="367.63"/>
+      <line class="st1" x1="368.44" y1="354.62" x2="368.44" y2="367.63"/>
+    </g>
+  </g>
+  <path class="st5" d="M357.6,0v337.2"/>
+</svg>

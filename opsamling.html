@@ -3,46 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opsamling | Eventnavn</title>
+    <title>Opsamling</title>
     <link rel="stylesheet" href="./css/starter.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/opsamling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <header class="site-header">
-      <div class="header-content">
-        <a class="site-logo" href="./">Eventnavn</a>
-        <nav class="site-nav">
-          <button>Menu</button>
-          <ul class="menu" id="menu" popover>
-            <li><a href="./">Forside</a></li>
-            <li><a href="./svg.html">Interaktiv SVG</a></li>
-            <li><a href="./form.html" aria-current="page">Formular</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
     <main>
       <section class="opsamling-page">
-        <div class="opsamling-intro">
-          <h1>Opsamling</h1>
-          <p>Vis brugerens valg som et pass, en invitation eller noget andet, der passer til dit event.</p>
-          <div class="actions">
-            <a class="button" href="./form.html">Tilbage til formular</a>
-          </div>
-        </div>
+        <h1>Tak for din tilmelding</h1>
 
-        <article class="opsamling-placeholder"></article>
+        <article class="opsamling-placeholder">
+          <section class="event-pass">
+            <section class="data">
+              <h2 class="personlige">Dit personlige jule-pas</h2>
+              <div class="personal-info-section">
+                <p>Navn: <span id="nickname"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <p>Alder: <span id="alder"></span></p>
+                <p>Nationalitet: <span id="nationalitet"></span></p>
+
+                <!-- <img id="occupation-image" src="img/default.png" alt="Erhverv" /> -->
+                <h3>Du er tilmeldt følgende dage:</h3>
+                <ul id="deltagelse"></ul>
+              </div>
+              <img class="julekugler" src="./svg/pynt_c.svg" alt="" />
+            </section>
+          </section>
+        </article>
       </section>
+      <div class="actions">
+        <a class="forside" href="index.html">Tilbage til forsiden</a>
+      </div>
     </main>
 
     <footer class="site-footer">
       <div class="footer-content">
-        <p>Eventnavn</p>
-        <p>Footer</p>
+        <a class="site-logo" href="index.html"> <img class="logo" src="svg/logo.svg" alt="" /></a>
+        <p>Caroline, Lulu & Rebekka MMD</p>
       </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

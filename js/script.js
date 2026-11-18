@@ -43,11 +43,25 @@ if (eventPass) {
 
   if (deltagelse.length > 0) {
     deltagelseSelect.innerHTML = deltagelse.map((valg) => `<li>${valg}</li>`).join("");
-  } else {
-    deltagelseSelect.innerHTML = "<li>Ingen dage valgt</li>";
   }
 }
+const checkboxes = document.querySelectorAll('input[name="deltagelse"]');
 
+function validateCheckboxes() {
+  const mindstEnValgt = [...checkboxes].some((checkbox) => checkbox.checked);
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.required = !mindstEnValgt;
+  });
+}
+
+if (checkboxes.length > 0) {
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener("change", validateCheckboxes);
+  });
+
+  validateCheckboxes();
+}
 // deltagelseSelect.textContent = "Ingen valgt";
 
 // if (opsamlingPlaceholder) {

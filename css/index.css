@@ -4,38 +4,67 @@
   place-items: center;
 }
 
+.sprog-knap {
+  justify-self: right;
+  align-self: right;
+  display: flex;
+  border: 1px solid white;
+  background-color: rgba(42, 53, 31, 1);
+
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(235, 228, 210, 1);
+  font-size: 20px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 10px 10px 6px 0 rgba(42, 53, 31, 0.45);
+  border-radius: 2rem;
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 10px 10px 6px 0 rgba(235, 228, 210, 0.45);
+  }
+}
+
 .intro {
   grid-column: 2;
   place-items: center;
   text-align: center;
   border: 2px solid rgba(105, 11, 18, 1);
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 2rem;
+  padding-top: 4rem;
   background-color: rgba(105, 11, 18, 1);
   box-shadow: 10px 10px 6px rgba(104, 11, 19, 0.45);
-  width: 25rem;
+  width: 40rem;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color: rgba(235, 228, 210, 1);
-  font-size: 15px;
+  font-size: 20px;
 
-  @media (width > 650px) {
+  @media (width > 700px) {
+    display: grid;
+    align-items: center;
     grid-column: 2;
     place-items: center;
     border: 2px solid rgba(105, 11, 18, 1);
     border-radius: 2rem;
     padding: 2rem;
+    padding-top: 5rem;
     background-color: rgba(105, 11, 18, 1);
     box-shadow: 20px 20px 6px rgba(104, 11, 19, 0.45);
-    width: 40rem;
+    width: 50rem;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     color: rgba(235, 228, 210, 1);
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
@@ -125,7 +154,7 @@
     font-weight: 500;
     font-style: normal;
     color: rgba(235, 228, 210, 1);
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 2rem;
@@ -140,4 +169,20 @@
 .link:hover {
   box-shadow: 0px 6px 15px rgba(220, 170, 88);
   transform: translateY(-10px);
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    tramsform: translateX(0px);
+  }
+}
+.slide-in {
+  animation: slide-in ease-out both;
+  animation-timeline: view();
+  animation-range: 10% 50%;
 }

@@ -83,20 +83,36 @@ h1 {
   font-weight: 500;
   font-style: normal;
   color: rgba(235, 228, 210, 1);
-  font-size: 18px;
-  padding: 0.8rem;
+  font-size: 25px;
+  padding: 2rem;
   align-items: center;
   text-align: center;
-  width: 200px;
-  border: solid rgba(235, 228, 210, 1);
+  width: 400px;
+
   border-radius: 2rem;
   background-color: rgba(105, 11, 18, 1);
-
+  box-shadow: 10px 10px 6px 0 rgba(104, 11, 19, 0.45);
   text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .forside:hover {
   background-color: rgba(42, 53, 31, 1);
+
+  box-shadow: 10px 10px 6px 0 rgba(42, 53, 31, 0.45);
+}
+
+@media (width <= 700px) {
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+}
+.actions {
+  margin-top: 5rem;
 }
 
 .julekugler {
@@ -108,5 +124,13 @@ h1 {
     width: 250px;
     display: grid;
     grid-column: 2/3;
+  }
+}
+
+@media (width <= 700px) {
+  h1 {
+    font-size: 80px;
+
+    text-align: center;
   }
 }

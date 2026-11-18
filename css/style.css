@@ -31,11 +31,34 @@ p {
 }
 h1 {
   font-family: "Yesteryear", cursive;
-  font-weight: 1000;
+  font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 100px;
   color: rgba(105, 11, 18, 1);
+  -webkit-text-stroke: 6px white;
+  paint-order: stroke fill;
+
+  @media (width > 700px) {
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: rgba(105, 11, 18, 1);
+    -webkit-text-stroke: 6px white;
+    paint-order: stroke fill;
+  }
 }
+
+@media (width < 700px) {
+  font-family: "Yesteryear", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: rgba(105, 11, 18, 1);
+  -webkit-text-stroke: 6px white;
+  paint-order: stroke fill;
+}
+
 .overskrift {
   grid-column: 2;
 }
@@ -220,18 +243,20 @@ button:hover {
   }
 }
 
-@media (width <= 700px) {
-  .menu a:hover {
+.menu a:hover {
+  @media (width <= 700px) {
     color: rgba(235, 228, 210, 1);
     font-weight: 600;
     box-shadow: none;
     background-color: rgba(105, 11, 18, 1);
     border-radius: 2rem;
   }
+  font-weight: 600;
 }
 
 .menu a[aria-current="page"] {
   border-bottom-color: var(--color-border);
+  font-weight: bold;
 }
 
 .site-header {
@@ -310,4 +335,28 @@ button:hover {
   @media (width > 700px) {
     color: rgba(105, 11, 18, 1);
   }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+.site-header {
+  view-transition-name: header;
+}
+
+.info-title {
+  view-transition-name: sidetitel;
+}
+
+::view-transition-group(sidetitel) {
+  animation-duration: 400ms;
+}
+
+.tilmelding .event-pass {
+  view-transition-name: julepas;
+}
+
+::view-transition-group(julepas) {
+  animation-duration: 600ms;
 }

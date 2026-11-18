@@ -30,27 +30,10 @@ h2 {
   text-align: center;
 }
 
-.start {
-  font-family: "Yesteryear", cursive;
-  font-weight: 1000;
-  font-style: normal;
-  font-size: 50px;
-  color: rgba(105, 11, 18, 1);
-  text-align: center;
-  align-items: center;
-  border-bottom: solid rgba(105, 11, 18, 1);
-  padding-bottom: 2rem;
-}
-@media (width > 700px) {
+@media (width <= 700px) {
   .start {
-    font-family: "Yesteryear", cursive;
-    font-weight: 1000;
-    font-style: normal;
-    font-size: 50px;
-    color: rgba(105, 11, 18, 1);
-    text-align: left;
-    border-bottom: solid rgba(105, 11, 18, 1);
-    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -66,6 +49,10 @@ h2 {
   border-radius: 2rem;
   padding: 1rem;
   width: 600px;
+  interpolate-size: allow-keywords;
+  height: auto;
+  overflow: hidden;
+  transition: height 0.4s ease;
 }
 @media (width > 700px) {
   .accordion-item {
@@ -79,10 +66,14 @@ h2 {
     border: 2px solid rgba(235, 228, 210, 1);
     border-radius: 2rem;
     padding: 1rem;
+    interpolate-size: allow-keywords;
+    height: auto;
+    overflow: hidden;
+    transition: height 0.4s ease;
   }
 }
 
-summary {
+.panel summary {
   display: flex;
   justify-content: space-between;
 }
@@ -100,6 +91,21 @@ summary::after {
 
 :open summary::after {
   content: "-";
+}
+
+.accordion-item::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.4s ease,
+    opacity 0.4s ease,
+    content-visability 0.4s allow-discrete;
+}
+
+.accordion-item[open]::details-content {
+  block-size: auto;
+  opacity: 1;
 }
 
 .svg-hus {
@@ -145,4 +151,12 @@ summary::after {
 
 .svg-hus.vindue-aabent .lys {
   display: block;
+}
+
+.svg-placeholder {
+  @media (width <= 700px) {
+    position: relative;
+    left: 70%;
+    transform: translateX(-50%);
+  }
 }
